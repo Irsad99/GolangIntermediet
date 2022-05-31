@@ -12,7 +12,6 @@ type deretBilangan struct {
 }
 
 var wait = sync.WaitGroup{}
-var ch = make(chan int)
 
 func main()  {
 
